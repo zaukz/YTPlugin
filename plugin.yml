@@ -1,0 +1,23 @@
+name: YTPlugin
+version: 1.0.0
+api: 5.0.0
+author: zAukz
+description: Plugin for YouTube Tutorial :)
+main: zaukz\YTPlugin\Main
+# load: STARTUP
+# src-namespace-prefix: zaukz\YTPlugin
+# website: https://google.com
+# depend: []
+# softdepend: []
+
+commands:
+  testcommand:
+    description: Test command!
+    usage: /testcommand
+    permission: ytplugin.command.testcommand
+    #aliases: [test, testcmd]
+
+permissions:
+  ytplugin.command.testcommand:
+    description: Allows the user to run /testcommand!
+    default: true

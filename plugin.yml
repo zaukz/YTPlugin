@@ -16,8 +16,15 @@ commands:
     usage: /testcommand
     permission: ytplugin.command.testcommand
     #aliases: [test, testcmd]
+  track:
+    description: Track the location of a player!
+    usage: /track
+    permission: ytplugin.command.track
 
 permissions:
   ytplugin.command.testcommand:
     description: Allows the user to run /testcommand!
+    default: true
+  ytplugin.command.track:
+    description: Allows the user to run /track!
     default: true
